@@ -5,6 +5,7 @@ const app = express()
 
 // 静态资源托管
 app.use(express.static('./template'))
+app.use('/uploads', express.static('./uploads'))
 
 // 导入并配置 cors 中间件
 const cors = require('cors')
@@ -39,6 +40,8 @@ const userInfoRouter = require('./router/userInfo')
 app.use('/my', userInfoRouter)
 const artCateRouter = require('./router/artcate')
 app.use('/my/article', artCateRouter)
+const articleRouter = require('./router/article')
+app.use('/my/article', articleRouter)
 
 // 错误中间件
 const joi = require('joi')
