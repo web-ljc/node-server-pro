@@ -1,0 +1,31 @@
+{
+  "name": "node-server-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-ljc/node-server-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-ljc/node-server-pro/issues"
+  },
+  "homepage": "https://github.com/web-ljc/node-server-pro#readme",
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "joi": "^17.6.0",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
